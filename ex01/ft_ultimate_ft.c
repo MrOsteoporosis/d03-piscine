@@ -6,14 +6,18 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 12:53:05 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 12:54:56 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:23:30 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
+/*fend */
 
 int		main(void)
 {

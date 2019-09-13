@@ -6,10 +6,13 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 14:07:11 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 14:25:14 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:26:21 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 int		ft_atoi(char *str)
 {
 	int converted;
@@ -37,6 +40,7 @@ int		ft_atoi(char *str)
 	}
 	return (converted);
 }
+/*fend */
 
 int		main(void)
 {

@@ -6,10 +6,13 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 12:57:30 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 13:00:24 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:23:45 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 void	ft_swap(int *a, int *b)
 {
 	int swap;
@@ -18,6 +21,7 @@ void	ft_swap(int *a, int *b)
 	*a = *b;
 	*b = swap;
 }
+/*fend */
 
 int		main(void)
 {

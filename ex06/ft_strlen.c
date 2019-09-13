@@ -6,10 +6,13 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 13:46:14 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 13:49:06 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:25:49 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 int	ft_strlen(char *str)
 {
 	int length;
@@ -21,6 +24,7 @@ int	ft_strlen(char *str)
 	}
 	return (length);
 }
+/*fend */
 
 int	main(void)
 {

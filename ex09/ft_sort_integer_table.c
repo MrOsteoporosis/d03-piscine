@@ -6,10 +6,13 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 14:29:30 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 14:36:02 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:26:40 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 void	ft_sort_integer_table(int *tab, int size)
 {
 	int c1;
@@ -31,6 +34,7 @@ void	ft_sort_integer_table(int *tab, int size)
 		}
 	}
 }
+/*fend */
 
 int		main(void)
 {

@@ -6,10 +6,13 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 13:50:28 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/12 14:05:34 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 11:26:06 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
+/*hend */
+
+/*fstart */
 char	*ft_strrev(char *str)
 {
 	int count;
@@ -31,6 +34,7 @@ char	*ft_strrev(char *str)
 	}
 	return (str);
 }
+/*fend */
 
 int		main(void)
 {
