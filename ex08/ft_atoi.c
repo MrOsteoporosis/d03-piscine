@@ -6,11 +6,12 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 14:07:11 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/13 11:26:21 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 16:51:55 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*hend */
+#include <stdio.h>
 
 /*fstart */
 int		ft_atoi(char *str)
@@ -34,8 +35,8 @@ int		ft_atoi(char *str)
 	}
 	while (temp > -1)
 	{
-		converted = converted + ((str[length - temp] - '0') * factor);
 		factor = factor / 10;
+		converted = converted + ((str[length - temp] - 48) * factor);
 		temp = temp - 1;
 	}
 	return (converted);
@@ -44,6 +45,7 @@ int		ft_atoi(char *str)
 
 int		main(void)
 {
-	ft_putstr("hellomate");
+	printf("%s\n", "98723");
+	printf("%d\n", ft_atoi("98723"));
 	return (0);
 }
