@@ -6,7 +6,7 @@
 /*   By: averheij <averheij@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2019/09/12 13:50:28 by averheij       #+#    #+#                */
-/*   Updated: 2019/09/13 11:26:06 by averheij      ########   odam.nl         */
+/*   Updated: 2019/09/13 14:06:41 by averheij      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@
 /*fstart */
 char	*ft_strrev(char *str)
 {
-	int count;
-	int length;
-	char swap;
+	int		count;
+	int		length;
+	char	swap;
 
 	count = 0;
 	length = 0;
